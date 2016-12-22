@@ -6,6 +6,7 @@
 # TODO:
 # - Webservice + docker for makeblastdb
 # - Sequenceserver logs
+# - Organize databases in folders? (genomic, protein...)
 ############################################################
 
 version: '2'
