@@ -1,7 +1,7 @@
-Sequenceserver (blast) docker for eBioKit 2016
+Sequenceserver (blast) docker
 ===================
 
-This docker image is part of the eBioKit 2016 project.
+This docker image is part of the eBioKit 2017 project.
 
 
 ### About the eBioKit project
@@ -15,6 +15,6 @@ Find more information at [http://ebiokit.eu](http://ebiokit.eu)  and at the [SGB
 
 **Contact** [ebiokit@gmail.com](ebiokit@gmail.com)
 
-<div style="text-align:center">
+<p style="text-align:center">
 <img height=100 src="https://avatars0.githubusercontent.com/u/24695838?v=3&s=200">
-</div>
+</p>
