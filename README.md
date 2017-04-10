@@ -3,6 +3,14 @@ Sequenceserver (blast) docker
 
 This docker image is part of the eBioKit 2017 project.
 
+This docker image extends and distributes the following software:
+
+#### Sequenceserver
+
+- [Docker image](https://hub.docker.com/r/wurmlab/sequenceserver/).
+- [Licensed under GNU AGPL version 3.](https://raw.githubusercontent.com/wurmlab/sequenceserver/master/LICENSE.txt).
+- Citation
+> Priyam A, Woodcroft BJ, Rai V, Munagala A, Moghul I, Ter F, Gibbins MA, Moon H, Leonard G, Rumpf W & Wurm Y. 2015. Sequenceserver: A modern graphical user interface for custom BLAST databases. biorxiv doi: 10.1101/033142. [Link](http://www.biorxiv.org/content/early/2015/11/27/033142).
 
 ### About the eBioKit project
 
