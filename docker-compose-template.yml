@@ -1,8 +1,8 @@
 ############################################################
 # Launcher for Blast container for the eBioKit
 # This is a template, the following values must be replaced:
-#   - $$APP1_PORT$$, port number for the blast instance
-#   - $$DATA_LOCATION$$, location for the application data
+#   - $${INSTANCE_NAME}, name for the instance
+#   - $${INSTANCE_PORT_1}, port number for the instance
 # TODO:
 # - Webservice + docker for makeblastdb
 # - Sequenceserver logs
@@ -12,20 +12,18 @@
 version: '2'
 services:
 
-    blast_machine:
+    $${INSTANCE_NAME}-blast:
       image: ebiokit/blast
-      container_name: blast_machine
+      container_name: $${INSTANCE_NAME}-blast
       depends_on:
-        - blast_data
+        - $${INSTANCE_NAME}-data
       volumes_from:
-        - blast_data
+        - $${INSTANCE_NAME}-data
       ports:
-        - "$$APP1_PORT$$:4567"
+        - "$${INSTANCE_PORT_1}:4567"
 
-    blast_data:
+    $${INSTANCE_NAME}-data:
       image: busybox
-      container_name: blast_data
+      container_name: $${INSTANCE_NAME}-data
       volumes:
-        - $$DATA_LOCATION$$:/db
-
-
+        - /data/$${INSTANCE_NAME}-data/db:/db

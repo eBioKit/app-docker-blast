@@ -1,0 +1,23 @@
+[
+	{
+		"name": "INSTANCE_NAME",
+		"label": "Instance name",
+		"type": "text",
+		"description": "The name for the new instance",
+		"default": "mrs"
+	},
+	{
+		"name": "INSTANCE_PORT_1",
+		"label": "Port number",
+		"type": "number",
+		"description": "The port number for the new instance",
+		"default": "8072"
+	},
+	{
+		"name": "INSTANCE_URL",
+		"label": "URL",
+		"type": "text",
+		"description": "The URL for the new instance",
+		"default": "/blast"
+	}
+]

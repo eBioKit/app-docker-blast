@@ -1,0 +1,9 @@
+{
+	"service":"blast",
+	"version":"0.1",
+	"title":"BLAST",
+	"description":"BLAST: Basic Local Alignment Search Tool.",
+	"categories":"databases,search",
+	"website":"/blast",
+	"dockers" : "ebiokit/blast,busybox"
+}
