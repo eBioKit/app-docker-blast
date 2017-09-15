@@ -1,23 +1,16 @@
 [
 	{
-		"name": "INSTANCE_NAME",
-		"label": "Instance name",
+		"name": "INSTANCE_TITLE",
+		"label": "Service name",
 		"type": "text",
-		"description": "The name for the new instance",
-		"default": "mrs"
+		"description": "The title for the new service",
+		"default": "Blast"
 	},
 	{
 		"name": "INSTANCE_PORT_1",
 		"label": "Port number",
 		"type": "number",
 		"description": "The port number for the new instance",
-		"default": "8072"
-	},
-	{
-		"name": "INSTANCE_URL",
-		"label": "URL",
-		"type": "text",
-		"description": "The URL for the new instance",
-		"default": "/blast"
+		"default": 8072
 	}
 ]

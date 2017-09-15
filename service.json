@@ -3,7 +3,7 @@
 	"version":"0.1",
 	"title":"BLAST",
 	"description":"BLAST: Basic Local Alignment Search Tool.",
-	"categories":"databases,search",
+	"categories":"databases,search,bioinformatics,aligment,web-based",
 	"website":"/blast",
 	"dockers" : "ebiokit/blast,busybox"
 }
