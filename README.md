@@ -1,12 +1,18 @@
-Sequenceserver (blast) docker
+BLAST docker
 ===================
 
 This docker image is part of the eBioKit 2017 project.
 
 This docker image extends and distributes the following software:
 
-#### Sequenceserver
+#### BLAST
+- Basic Local Alignment Search Tool
+- [BLAST is Public Domain software](https://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/book/redirector.cgi?url=%2Fbooks%2Fbr.fcgi%3Fbook%3Dtoolkit%26part%3Dtoolkit.fm#A3).
+- Citation
+> Basic local alignment search tool. Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ. J Mol Biol. 1990 Oct 5;215(3):403-10. [Link](https://www.ncbi.nlm.nih.gov/pubmed/2231712).
+> BLAST+: architecture and applications. Camacho C, Coulouris G, Avagyan V, Ma N, Papadopoulos J, Bealer K, Madden TL. BMC Bioinformatics. 2009 Dec 15;10:421. doi: 10.1186/1471-2105-10-421. [Link](https://www.ncbi.nlm.nih.gov/pubmed/20003500).
 
+#### Sequenceserver
 - [Docker image](https://hub.docker.com/r/wurmlab/sequenceserver/).
 - [Licensed under GNU AGPL version 3.](https://raw.githubusercontent.com/wurmlab/sequenceserver/master/LICENSE.txt).
 - Citation

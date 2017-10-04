@@ -1,9 +1,9 @@
 {
 	"service":"blast",
-	"version":"0.1",
+	"version":"0.9",
 	"title":"BLAST",
 	"description":"BLAST: Basic Local Alignment Search Tool.",
 	"categories":"databases,search,bioinformatics,aligment,web-based",
-	"website":"/blast",
-	"dockers" : "ebiokit/blast,busybox"
+	"website":"http://www.sequenceserver.com/",
+	"dockers" : "ebiokit/blast:0.9,fikipollo/vsftpd:0.9,busybox"
 }

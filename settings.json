@@ -10,7 +10,52 @@
 		"name": "INSTANCE_PORT_1",
 		"label": "Port number",
 		"type": "number",
-		"description": "The port number for the new instance",
+		"description": "The main port number for the new instance (Nginx server)",
 		"default": 8072
+	},
+	{
+		"name": "INSTANCE_PORT_2",
+		"label": "Port number",
+		"type": "number",
+		"description": "Secondary port number for the new instance (Sequenceserver)",
+		"default": 8073
+	},
+	{
+		"name": "INSTANCE_PORT_3",
+		"label": "Port number",
+		"type": "number",
+		"description": "The port number for the FTP server",
+		"default": 8074
+	},
+	{
+		"name": "ADMIN_USER",
+		"label": "Admin account:",
+		"type": "text",
+		"description": "The admin account used for administrate your BLAST server."
+	},
+	{
+		"name": "ADMIN_PASS",
+		"label": "Admin password:",
+		"type": "password",
+		"description": "The password for the admin account."
+	},
+	{
+		"name": "MAX_FILE_SIZE",
+		"label": "Max upload file size",
+		"type": "number",
+		"description": "Max file size for file upload (in MB). Bigger files should be uploaded using other protocol (e.g. using FTP).",
+		"default": 200
+	},
+	{
+		"name": "FTP_USER",
+		"label": "FTP user account:",
+		"type": "text",
+		"description": "The FTP account used for uploading bigger files."
+	},
+	{
+		"name": "FTP_PASS",
+		"label": "FTP password:",
+		"type": "password",
+		"description": "The password for the FTP account."
 	}
 ]
