@@ -5,5 +5,5 @@
 	"description":"BLAST: Basic Local Alignment Search Tool.",
 	"categories":"databases,search,bioinformatics,aligment,web-based",
 	"website":"http://www.sequenceserver.com/",
-	"dockers" : "ebiokit/blast:0.9,fikipollo/vsftpd:0.9,busybox"
+	"dockers" : "fikipollo/blast:0.9,fikipollo/vsftpd:0.9,busybox"
 }

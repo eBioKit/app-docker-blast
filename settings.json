@@ -29,13 +29,13 @@
 	},
 	{
 		"name": "ADMIN_USER",
-		"label": "Admin account:",
+		"label": "Admin account",
 		"type": "text",
 		"description": "The admin account used for administrate your BLAST server."
 	},
 	{
 		"name": "ADMIN_PASS",
-		"label": "Admin password:",
+		"label": "Admin password",
 		"type": "password",
 		"description": "The password for the admin account."
 	},
